@@ -85,7 +85,7 @@ params:
     responsiveImages: false
   
   # Comment system - needs proper setup
-  comments: false
+  comments: true
   
   # Search configuration
   fuseOpts:
