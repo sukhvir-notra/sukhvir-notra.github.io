@@ -18,6 +18,10 @@ outputs:
     - RSS
     - JSON
 
+caches:
+  images:
+    dir: ':cacheDir/images'
+
 params:
   env: production
   title: Sukhvir's blog
