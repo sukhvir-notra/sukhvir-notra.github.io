@@ -71,9 +71,11 @@ params:
     - name: github
       url: "https://github.com/sukhvir-notra"
     - name: x
-      url: "https://x.com/yourhandle"
+      url: "https://x.com/sukhvir_ai"
     - name: linkedin
-      url: "https://linkedin.com/in/yourprofile"
+      url: "https://www.linkedin.com/in/sukhvir-notra"
+    - name: email
+      url: "mailto:quinone-52.fallout@icloud.com"
   
   # Cover image settings
   cover:
