@@ -1,0 +1,126 @@
+baseURL: 'https://sukhvir-notra.github.io/'
+title: Sukhvir's blog
+pagination.pagerSize: 5
+theme: PaperMod
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+# Crucial for search functionality
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  title: Sukhvir's blog
+  description: "My thoughts on cyber security, operations and AI"
+  keywords: [Blog, Cyber, AI, Security]
+  author: Sukhvir Notra
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  #assets
+  assets:
+    favicon: "/favicon.png"
+    favicon16x16: "/favicon.png"  # Will be resized
+    favicon32x32: "/favicon.png"  # Will be resized
+    apple_touch_icon: "/favicon.png"  # Will be resized
+  
+  # Define main sections for content indexing
+  mainSections: 
+    - posts  # Add this section to specify where your content lives
+  
+  # Reading experience
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  
+  # Content display
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+  
+  # Home info mode (since you don't want profile mode)
+  homeInfoParams:
+    Title: "Sukhvir Notra"
+    Content: "My thoughts on cyber security, operations and AI. Welcome to my blog!"
+  
+  # Social icons - corrected format
+  socialIcons:
+    - name: github
+      url: "https://github.com/sukhvir-notra"
+    - name: x
+      url: "https://x.com/yourhandle"
+    - name: linkedin
+      url: "https://linkedin.com/in/yourprofile"
+  
+  # Cover image settings
+  cover:
+    hidden: false
+    hiddenInList: true
+    hiddenInSingle: false
+    responsiveImages: false
+  
+  # Comment system - needs proper setup
+  comments: false
+  
+  # Search configuration
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.3
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# Menu items
+menu:
+  main:
+    - identifier: Archives
+      name: Archives
+      url: /archives/
+      weight: 10
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 40
+
+# Syntax highlighting
+pygmentsUseClasses: true
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    noClasses: false
+    style: "nord"  # This won't actually be used since we're using classes
+  goldmark:
+    renderer:
+      unsafe: true
+ignoreLogs: ['warning-goldmark-raw-html']
