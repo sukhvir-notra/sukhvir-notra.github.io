@@ -29,6 +29,12 @@
     <loc>http://localhost:1313/posts/welcome/</loc>
     <lastmod>2024-08-08T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/building_rag_applications/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/cyber_attacks_on_llms/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/cyber_implications_of_onboarding_ai/</loc>
+  </url><url>
     <loc>http://localhost:1313/archives/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>

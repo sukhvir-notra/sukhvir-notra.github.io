@@ -33,7 +33,7 @@ So, without further ado, let's dive into the world of tokens, self-attention, an
 
 ---
 
-#### TLDR:
+**TLDR**:
 
 > This blog chronicles the journey of building and optimising a 124-million parameter GPT-2 model. Key steps included implementing self-attention mechanisms, adding multiple attention blocks with pre-normalization, and optimizing for computational efficiency using techniques like torch.compile and flash attention. The model was trained on a powerful GPU cluster, achieving competitive validation loss and surpassing OpenAI’s GPT-2 in accuracy on the HellaSwag benchmark. Despite not reaching GPT-3’s performance, the results highlight the effectiveness of targeted optimisations in deep learning.
 

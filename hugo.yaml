@@ -100,8 +100,8 @@ params:
 # Menu items
 menu:
   main:
-    - identifier: Archives
-      name: Archives
+    - identifier: Posts
+      name: Posts
       url: /archives/
       weight: 10
     - identifier: categories

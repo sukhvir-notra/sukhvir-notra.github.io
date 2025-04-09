@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Thoughts on Sukhvir&#39;s blog</title>
+    <link>http://localhost:1313/categories/thoughts/</link>
+    <description>Recent content in Thoughts on Sukhvir&#39;s blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 09 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The AI Gold Rush: Balancing Innovation with Security</title>
+      <link>http://localhost:1313/posts/cyber_implications_of_onboarding_ai/</link>
+      <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cyber_implications_of_onboarding_ai/</guid>
+      <description>&lt;p&gt;Hey there, fellow tech enthusiasts! If you&amp;rsquo;re anything like me, you&amp;rsquo;ve probably spent the last year watching AI sweep through our industry like a California gold rush. And who can blame us? The possibilities are absolutely mind-blowing!&lt;/p&gt;
+&lt;h2 id=&#34;the-great-ai-experimentation-phase&#34;&gt;The Great AI Experimentation Phase&lt;/h2&gt;
+&lt;p&gt;Let me tell you about what&amp;rsquo;s happening in my organization—we&amp;rsquo;ve gone &lt;em&gt;all in&lt;/em&gt; on AI. I&amp;rsquo;m talking full tilt, no holds barred, &amp;ldquo;what even is a budget anymore?&amp;rdquo; kind of commitment. And I&amp;rsquo;m betting your organization is somewhere on this spectrum too, right?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
